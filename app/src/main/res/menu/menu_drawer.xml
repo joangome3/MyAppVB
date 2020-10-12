@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_resident"
+            android:enabled="true"
+            android:icon="@drawable/ic_people_light"
+            android:title="@string/navigation_buttom_resident"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/nav_vehicle"
+            android:checked="false"
+            android:enabled="true"
+            android:icon="@drawable/ic_directions_car_light"
+            android:title="@string/navigation_buttom_vehicle"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/nav_visitor"
+            android:checked="false"
+            android:enabled="true"
+            android:icon="@drawable/ic_face_light"
+            android:title="@string/navigation_buttom_visitor"
+            app:showAsAction="ifRoom" />
+    </group>
+
+    <item android:title="@string/title_drawer_message_2">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:checked="false"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_person_light"
+                    android:title="@string/navigation_buttom_profile"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/nav_settings"
+                    android:checked="false"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_settings_light"
+                    android:title="@string/navigation_buttom_settings"
+                    app:showAsAction="ifRoom" />
+            </group>
+        </menu>
+    </item>
+</menu>

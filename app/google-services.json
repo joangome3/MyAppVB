@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "395836465750",
+    "firebase_url": "https://myappvb-fdab4.firebaseio.com",
+    "project_id": "myappvb-fdab4",
+    "storage_bucket": "myappvb-fdab4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395836465750:android:c1833be912e94ebc2011f7",
+        "android_client_info": {
+          "package_name": "com.digiecsoft.myappvb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395836465750-irijpodt4nvgov79nbopv86n6k7pfb04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXx3fp4HkXqyzKbquxVCmUlnoM3a5aHrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395836465750-irijpodt4nvgov79nbopv86n6k7pfb04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

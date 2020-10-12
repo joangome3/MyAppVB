@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">MyAppVB</string>
+
+    <!-- Login View -->
+    <string name="login_email">Email</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_confirm_password">Confirmar contraseña</string>
+    <string name="login_sign_in">Acceder</string>
+    <string name="login_sign_up">Registrar</string>
+    <string name="login_reset_password">Restablecer contraseña</string>
+    <string name="login_sign_in_message">También puedes</string>
+    <string name="login_sign_in_google">Acceder con Google</string>
+    <string name="login_sign_in_facebook">Acceder con Facebook</string>
+    <string name="login_forgot_password">¿Has olvidado tu contraseña?</string>
+    <string name="login_create_account">Crea una nueva cuenta</string>
+    <string name="login_go_login">Regresar a inicio de sesión</string>
+    <string name="login_message_1">El email ingresado no existe</string>
+    <string name="login_message_2">La contraseña ingresada no es correcta</string>
+
+    <!-- Messages validations -->
+    <string name="sign_up_message_1">Asegúrese de que todos los datos sean correctos</string>
+    <string name="sign_up_message_2">El email ingresado no es válido</string>
+    <string name="sign_up_message_3">La contraseña debe contener 1 minúscula, 1 mayúscula, 1 número, 1 carácter especial y al menos 6 caracteres de longitud.</string>
+    <string name="sign_up_message_4">Las contraseñas ingresadas no coinciden</string>
+    <string name="sign_up_message_5">Se le ha enviado un correo electrónico. Por favor, confirme antes de iniciar sesión</string>
+    <string name="sign_up_message_6">Ocurrió un error inesperado. Vuelva a intentarlo</string>
+    <string name="sign_up_message_7">El usuario debe confirmar el correo electrónico primero</string>
+    <string name="sign_up_message_8">Conexión fallida!!</string>
+    <string name="sign_up_message_9">Se ha enviado un correo electrónico para restablecer su contraseña</string>
+    <string name="sign_up_message_10">Asegúrese de que la dirección de correo electrónico sea correcta</string>
+    <string name="sign_up_message_12">El email ingresado ya se encuentra registrado</string>
+
+    <!-- Messages validations Firestore -->
+    <string name="firebase_message_1">Error al obtener los documentos</string>
+    <string name="firebase_message_2">Asegúrese de que su dispositivo se encuentra conectado a internet</string>
+
+    <!-- Preference Titles -->
+    <string name="title_activity_main_empty">MainEmptyActivity</string>
+    <string name="title_drawer_message_1">Opciones principales</string>
+    <string name="title_drawer_message_2">Otros</string>
+
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Buttom Navigation Menu and Drawer -->
+    <string name="navigation_buttom_resident">Residentes</string>
+    <string name="navigation_buttom_vehicle">Vehículos</string>
+    <string name="navigation_buttom_visitor">Visitantes</string>
+    <string name="navigation_buttom_profile">Perfil</string>
+    <string name="navigation_buttom_settings">Opciones</string>
+
+    <!-- Messages Preferences -->
+    <string name="open_drawer">El cajón de navegación está abierto</string>
+    <string name="close_drawer">El cajón de navegación está cerrado</string>
+    <string name="info_no_name">Nombre no disponible</string>
+
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
